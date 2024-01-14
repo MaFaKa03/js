@@ -13,6 +13,6 @@
 Уточнение: пользователь всегда вводит корректное число.
 */
 
-const tempC = +(prompt("Enter temreture in Celsius: "));
+const tempC = +prompt("Enter temreture in Celsius: ");
 const tempF = Math.round(((9 / 5) * tempC + 32) * 10) / 10;
-prompt(`Цельсий: ${tempC}, Фаренгейт: ${tempF}`);
+alert(`Цельсий: ${tempC}, Фаренгейт: ${tempF}`);
