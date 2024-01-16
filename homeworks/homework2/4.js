@@ -24,5 +24,8 @@
 */
 
 const num = Number(prompt("Enter number: "))
-alert(`В числе ${num} количество сотен: ${Math.floor(num % 1000 / 100) }, десятков: ${Math.floor(num % 100 / 10)}, единиц: ${num % 10}`)
+const hundred = Math.floor(num % 1000 / 100);
+const dozen = Math.floor(num % 100 / 10);
+const unit = num % 10;
+alert(`В числе ${num} количество сотен: ${hundred}, десятков: ${dozen}, единиц: ${unit}`)
 
