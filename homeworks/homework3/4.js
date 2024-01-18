@@ -24,11 +24,8 @@ function sum(num1, num2) {
 function dif(num1, num2) {
     if (num1 > num2) {
         return num1 - num2;
-    } else if (num2 > num1) {
-        return num2 - num1;
-    } else {
-        return 0;
-    }
+    } 
+    return num2 - num1;
 }
 function mult(num1, num2) {
     return num1 * num2;

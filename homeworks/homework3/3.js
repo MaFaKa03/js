@@ -17,7 +17,7 @@ function maxNum(num1, num2, num3) {
     } else if(num3 > max) {
         max = num3;
     }
-    alert(`Максимальное значение среди чисел ${num1}, ${num2}, ${num3} равно ${max}.`)
+    alert(`Максимальное значение среди чисел ${num1}, ${num2}, ${num3} равно ${max}.`);
 }
 
 const num1 = Number(prompt('Enter number: '));

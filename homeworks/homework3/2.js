@@ -12,8 +12,8 @@
 
 function tax() {
     const num = Number(prompt('Введите число'));
-    if (Number.isInteger(num)) {
-        const salary = num * 0.87;
+    if (Number.isFinite(num)) {
+        const salary = (num * 0.87).toFixed(2);
         console.log(`Размер заработной платы за вычетом налогов равен ${salary}.`);
     } else {
         console.log('Значение задано неверно');
