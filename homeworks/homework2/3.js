@@ -15,13 +15,14 @@
 */
 
 const dayNumber = Number(prompt("Enter number from [1, 32): "))
-
-if (dayNumber < 1 || dayNumber > 31) {
-    console.log("Неверное значение.") 
-} else if(dayNumber < 11) {
-    console.log(`Число ${dayNumber} попадает в 1 декаду`);
-} else if (dayNumber > 10 && dayNumber < 21) {
-    console.log(`Число ${dayNumber} попадает в 2 декаду`);
-} else {
-    console.log(`Число ${dayNumber} попадает в 3 декаду`);
+if (Number.isInteger(dayNumber)) {
+        if (dayNumber < 1 || dayNumber > 31) {
+        console.log("Неверное значение.") 
+    } else if(dayNumber < 11) {
+        console.log(`Число ${dayNumber} попадает в 1 декаду`);
+    } else if (dayNumber > 10 && dayNumber < 21) {
+        console.log(`Число ${dayNumber} попадает в 2 декаду`);
+    } else {
+        console.log(`Число ${dayNumber} попадает в 3 декаду`);
+    }
 }

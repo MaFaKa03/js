@@ -15,7 +15,7 @@
 
 const positive = Number(prompt("Enter positive number: "));
 const negative = Number(prompt("Enter negative number: "));
-if (isNaN(positive) || isNaN(positive)) {
+if (Number.isNaN(positive) || Number.isNaN(positive)) {
     alert("Одно или более значений некорректно.");
 } else if (positive > 0 && negative < 0) {
     alert("Все значения верные.");
