@@ -27,9 +27,9 @@ const productss = [
   },
   {
     id: 8,
-    price: 78,
+    price: 127,
   },
 ];
 
 console.log(productss.filter((product) => 'photos' in product && product.photos.length > 0));
-console.log(productss.sort((a, b) => a.price > b.price ? 1:-1));
+console.log(productss.sort((a, b) => a.price - b.price));
