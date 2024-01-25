@@ -16,6 +16,5 @@ for (let i = 1; i < 11; i++) {
         console.log(`${i} - четное число`);
     } else {
         console.log(`${i} - нечетное число`);
-    }
-    
+    }   
 }

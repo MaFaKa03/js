@@ -13,6 +13,5 @@ xxxxx
 */
 const str = 'x';
 for (let i = 1; i < 21; i++) {
-    console.log(str.repeat(i));
-    
+    console.log(str.repeat(i));   
 }
