@@ -94,6 +94,7 @@ calc.add(10);
 console.log(calc.result());
 calc.subtract(3);
 console.log(calc.result());
+// calc.value = 10;
 
 function createGreeting(name) {
     const obj = {
